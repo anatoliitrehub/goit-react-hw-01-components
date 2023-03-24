@@ -1,0 +1,8 @@
+.tableItem{
+    /* text-align: center;
+    font-size: 1.5rem; */
+}
+
+.tableItem:nth-child(2n){
+    background-color: #e6e5e5;
+}

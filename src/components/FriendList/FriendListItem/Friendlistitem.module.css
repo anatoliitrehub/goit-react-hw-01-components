@@ -1,0 +1,22 @@
+.item{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 2px double green;
+    padding: 15px;
+    width: 50%;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.status{
+}
+
+.avatar{}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}

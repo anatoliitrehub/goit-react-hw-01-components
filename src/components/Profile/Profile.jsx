@@ -17,10 +17,10 @@ const Profile = ({username,tag,location,avatar,stats}) => {
         </Description>
   
       <Stats>
-        {Object.keys(stats).map(key=>{
+        {Object.keys(stats).map((key,ind)=>{
            return(
             <>
-            <StatsItem key={key}>
+            <StatsItem key={Math.random()}>
             <Label>{key}</Label>
             <Quantity>{stats[key]}</Quantity>
             </StatsItem>
